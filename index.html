@@ -4,60 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scott's Personal Website</title>
+    <title>Scott</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <table cellspacing=30>
-        <tr>
-            <td><img src="images/scottloo.png" alt="Scott Loo" width="300"></td>
-            <td>
-                <h1>Scott</h1>
-                <p>Software Engineer Intern at <em><a href="https://verisilicon.com/en/Home">Verisilicon</a></em></p>
-                <p>I am an IOS and Web Developer</p> 
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li>Hwa Chong Institution</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>2021</td>
-            <td>Software Engineer Intern at <em><a href="https://verisilicon.com/en/Home">Verisilicon</a></em></td>
-        </tr>
-        <tr>
-            <td>2021</td>
-            <td>Software Engineer</td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing = "10">
-        <tr>
-            <td>Python</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-            <td>C/C++</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobby.html">my hobbies</a>
-    <a href="contacts.html">contact me</a>
+    <div class="top-container">
+        <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>I'm Scott</h1>
+        <h2>I'm an aspiring software developer</h2>
+        <img class ="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+   <div class="middle-container">
+  <div class="profile">
+    <img class="profile-pic" src="images/scottloo.png" alt="scottloo">
+    <h2>Hello.</h2>
+    <p class="intro">I'm a aspiring software developer, incoming Math and Computer science undergraduate for Imperial College London</p>
+  </div>
+  <hr>
+  <div class="skills">
+    <h2>My Skills.</h2>
+    <div class="skill-row">
+      <img class="python-img" src="images/python.png" alt="python">
+      <h3>Python</h3>
+      <p>Intermediate Python Developer with particular interest in machine learning</p>
+    </div>
+    <div class="skill-row">
+      <img class="java-img" src="images/java.png" alt="java">
+      <h3>Java</h3>
+      <p>Beginner in Java, and is currently learning more about it.
+           Also learnt groovy as it is needed for my internship where we use jenkins</p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>if you need someone that codes</h3>
+    <p class="contact-msg">Contact me for any internship or job opportunity or if you just want to contact me!</p>
+    <a class="btn" href="mailto:scottlv95@gmail.com">CONTACT ME</a>
+  </div>
+</div>
+
+
+<div class="bottom-container">
+  <a class="footer-link" href="https://www.linkedin.com/in/scott-loo-a9a78996/">LinkedIn</a>
+  <a class="footer-link" href="https://www.instagram.com/scott1he/">Instagram</a>
+  <p class="copyright">© Scott Loo.</p>
+</div>
+
 </body>
 </html>
